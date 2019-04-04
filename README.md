@@ -1,7 +1,6 @@
 # Assignment 1: Intro to Haskell (65 points)
 
-## Due by Monday 1/28 1pm
-
+## Due by Friday 5/19 23:59:59
 
 ## Overview
 
@@ -98,14 +97,6 @@ To submit your code, just do:
 ```bash
 $ make turnin
 ```
-
-`turnin` will provide you with a confirmation of the
-submission process; make sure that the size of the file
-indicated by `turnin` matches the size of your file.
-See the ACS Web page on [turnin](http://acs.ucsd.edu/info/turnin.php)
-for more information on the operation of the program.
-
-
 ## Problem 1: [Roots and Persistence](http://mathworld.wolfram.com/AdditivePersistence.html)
 
 ### (a) 10 points
