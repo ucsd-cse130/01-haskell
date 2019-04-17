@@ -23,6 +23,9 @@ bin:
 clean: 
 	$(STACK) clean --allow-different-user
 
+ghci: 
+	$(STACK) exec --allow-different-user -- ghci
+
 distclean: clean 
 	rm -rf .stack-work 
 
