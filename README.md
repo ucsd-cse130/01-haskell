@@ -2,7 +2,7 @@
 
 ## Due by Wednesday 10/23 23:59:59
 
-Get the assignment from [this link](https://classroom.github.com/a/pIfJH-Rj). *DO NOT CLONE* this repository directly!
+Get the assignment from [this link](https://classroom.github.com/a/Hvb2Bc3_). *DO NOT CLONE* this repository directly!
 
 ## Overview
 
