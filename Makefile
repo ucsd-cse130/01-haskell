@@ -1,5 +1,5 @@
 #####################################################################################################
-COURSE=cs130sp19
+COURSE=cs130fa19
 ASGN=01
 NAME=haskell
 STACK=stack
@@ -37,7 +37,7 @@ turnin:
 	git push origin master
 
 upstream:
-	git remote add upstream https://github.com/ucsd-cse130/01-haskell.git
+	git remote add upstream https://github.com/cse130-fa19/01-lambda.git
 
 update:
 	git pull upstream master

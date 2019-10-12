@@ -1,6 +1,8 @@
 # Assignment 1: Intro to Haskell (65 points)
 
-## Due by Wednesday 4/24 23:59:59
+## Due by Wednesday 10/23 23:59:59
+
+Get the assignment from [this link](https://classroom.github.com/a/pIfJH-Rj). *DO NOT CLONE* this repository directly!
 
 ## Overview
 
@@ -53,7 +55,9 @@ but only the following three library functions on lists: `length`, `(++)` (appen
 
 ## Assignment Testing and Evaluation
 
+<!--
 Your programs **must** compile and run on `ieng6.ucsd.edu`.
+-->
 
 Most of the points, will be awarded automatically, by
 **evaluating your functions against a given test suite**.
@@ -97,6 +101,9 @@ To submit your code, just do:
 ```bash
 $ make turnin
 ```
+
+or alternatively, just `git push` you code to your github classroom repository.
+
 ## Problem 1: [Roots and Persistence](http://mathworld.wolfram.com/AdditivePersistence.html)
 
 ### (a) 10 points
