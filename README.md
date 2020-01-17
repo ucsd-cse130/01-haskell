@@ -63,6 +63,13 @@ of tests which gives you a flavor of of these tests.
 When you run
 
 ```shell
+$ make
+```
+*(preferred for ieng6.ucsd.edu*)
+
+or
+
+```shell
 $ stack test
 ```
 
