@@ -1,5 +1,5 @@
 #####################################################################################################
-COURSE=cs130sp19
+COURSE=cs130wi20
 ASGN=01
 NAME=haskell
 STACK=stack
@@ -15,24 +15,24 @@ endif
 endif
 
 test: clean
-	$(STACK) test --allow-different-user 
+	$(STACK) test --allow-different-user
 
 bin:
 	$(STACK) build --allow-different-user
 
-clean: 
+clean:
 	$(STACK) clean --allow-different-user
 
-ghci: 
+ghci:
 	$(STACK) exec --allow-different-user -- ghci
 
-distclean: clean 
-	rm -rf .stack-work 
+distclean: clean
+	rm -rf .stack-work
 
 tags:
 	hasktags -x -c lib/
 
-turnin: 
+turnin:
 	git commit -a -m "turnin"
 	git push origin master
 
