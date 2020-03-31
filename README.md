@@ -1,9 +1,5 @@
 # Assignment 1: Intro to Haskell (65 points)
 
-## Due by Wednesday 10/23 23:59:59
-
-Get the assignment from [this link](https://classroom.github.com/a/Hvb2Bc3_). *DO NOT CLONE* this repository directly!
-
 ## Overview
 
 The objective of this assignment is for you to gain some

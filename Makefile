@@ -1,30 +1,14 @@
-#####################################################################################################
-COURSE=cs130fa19
-ASGN=01
-NAME=haskell
-STACK=stack
-#####################################################################################################
-
-UNAME := $(shell uname)
-ifeq ($(UNAME), Linux)
-  FORMAT=aout
-else
-ifeq ($(UNAME), Darwin)
-  FORMAT=macho
-endif
-endif
-
 test: clean
-	$(STACK) test --allow-different-user 
+	stack test --allow-different-user 
 
 bin:
-	$(STACK) build --allow-different-user
+	stack build --allow-different-user
 
 clean: 
-	$(STACK) clean --allow-different-user
+	stack clean --allow-different-user
 
 ghci: 
-	$(STACK) exec --allow-different-user -- ghci
+	stack exec --allow-different-user -- ghci
 
 distclean: clean 
 	rm -rf .stack-work 
@@ -37,7 +21,7 @@ turnin:
 	git push origin master
 
 upstream:
-	git remote add upstream https://github.com/cse130-fa19/01-lambda.git
+	git remote add upstream https://github.com/cse130-assignments/01-haskell.git
 
 update:
 	git pull upstream master
