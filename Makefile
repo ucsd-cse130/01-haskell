@@ -1,5 +1,5 @@
 #####################################################################################################
-COURSE=cs130wi20
+COURSE=cs130wi21
 ASGN=01
 NAME=haskell
 STACK=stack
@@ -28,9 +28,6 @@ ghci:
 
 distclean: clean
 	rm -rf .stack-work
-
-tags:
-	hasktags -x -c lib/
 
 turnin:
 	git commit -a -m "turnin"
