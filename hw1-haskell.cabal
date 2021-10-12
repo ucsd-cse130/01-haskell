@@ -25,6 +25,7 @@ test-suite test
   hs-source-dirs:   tests
   ghc-options:      -threaded
   main-is:          Test.hs
+  other-modules:    Common  
   build-depends:    base,
                     directory,
                     filepath,
