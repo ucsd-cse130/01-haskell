@@ -1,18 +1,6 @@
 #####################################################################################################
-COURSE=cs130wi21
-ASGN=01
-NAME=haskell
 STACK=stack
 #####################################################################################################
-
-UNAME := $(shell uname)
-ifeq ($(UNAME), Linux)
-  FORMAT=aout
-else
-ifeq ($(UNAME), Darwin)
-  FORMAT=macho
-endif
-endif
 
 test: clean
 	$(STACK) test --allow-different-user
