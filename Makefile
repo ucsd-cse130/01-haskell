@@ -31,10 +31,10 @@ distclean: clean
 
 turnin:
 	git commit -a -m "turnin"
-	git push origin master
+	git push origin main
 
 upstream:
 	git remote add upstream https://github.com/ucsd-cse130/01-haskell.git
 
 update:
-	git pull upstream master
+	git pull upstream main
