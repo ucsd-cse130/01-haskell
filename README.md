@@ -88,19 +88,9 @@ but you will not be graded on this.
 
 ## Submission Instructions
 
-Submit your code via the HW-1 assignment on Gradescope.
-You must submit a single zip file containing a single directory with your repository inside.
-A simple way to create this zip file is:
+Submit your code via the HW-1 assignment on Gradescope. Connect your Github account to Gradescope and select your repo. If you're in a group, don't forget to add your partner to the submission!
 
-- Run `git push` to push your local changes to your private fork of the assignment repository
-- Navigate to your private fork on github and download source code as a zip
-
-Please *do not* include the `.stack-work` or `__MACOSX` folders into the submission.
-
-**Note:** Upon submission, Gradescope will only test your code on the *small public test suite*,
-so it will show maximum 13/65 points.
-After the deadline, we will regrade your submission on the full private test suite
-and you will get your full points.
+Detailed instructions on how to submit your code directly from the Git repo can be found on Piazza.
 
 ## Problem 1: [Roots and Persistence](http://mathworld.wolfram.com/AdditivePersistence.html)
 
