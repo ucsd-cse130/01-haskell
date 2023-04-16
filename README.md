@@ -1,4 +1,4 @@
-# Assignment 1: Intro to Haskell (65 points)
+# Assignment 1: Intro to Haskell (Points: 13 public / 65 private)
 
 ## Overview
 
