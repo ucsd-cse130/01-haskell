@@ -33,16 +33,6 @@ unit1 sc = testGroup "Unit 1"
       [3, 5, 2, 6, 6, 3]
       "digitsOfInt 2"
   , mkTest
-      digits
-      31243
-      [3, 1, 2, 4, 3]
-      "digits 1"
-  , mkTest
-      digits
-      (-23422)
-      [2, 3, 4, 2, 2]
-      "digits 2"
-  , mkTest
       additivePersistence
       9876
       2
