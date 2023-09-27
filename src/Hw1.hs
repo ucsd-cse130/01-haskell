@@ -46,18 +46,6 @@ digitsOfInt :: Int -> [Int]
 digitsOfInt n = error "TBD:digitsOfInt"
 
 
--- | `digits n` retruns the list of digits of `n`
---
--- >>> digits 31243
--- [3,1,2,4,3]
---
--- digits (-23422)
--- [2, 3, 4, 2, 2]
-
-digits :: Int -> [Int]
-digits n = digitsOfInt (abs n)
-
-
 -- | From http://mathworld.wolfram.com/AdditivePersistence.html
 --   Consider the process of taking a number, adding its digits,
 --   then adding the digits of the number derived from it, etc.,
