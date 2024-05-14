@@ -88,7 +88,7 @@ but you will not be graded on this.
 
 ## Submission Instructions
 
-Submit your code via the HW-1 assignment on Gradescope. Connect your Github account to Gradescope and select your repo. If you're in a group, don't forget to add your partner to the submission!
+Submit your code via the HW-1 assignment on Gradescope. Connect your GitHub account to Gradescope and select your repo. If you're in a group, don't forget to add your partner to the submission!
 
 Detailed instructions on how to submit your code directly from the Git repo can be found on Piazza.
 
@@ -129,7 +129,7 @@ digitsOfInt n = error "TBD:digitsOfInt"
 
 such that `digitsOfInt n`
 
-* returns `[]` if `n` is not positive, and otherwise
+* returns `[]` if `n` is less than or equal to 0, and otherwise
 * returns the list of digits of `n` in the order in which they appear in `n`.
 
 Once you have implemented the function, you should get the following:
@@ -143,6 +143,8 @@ ghci> digitsOfInt 352663
 ```
 
 ### (c) 10+10 points
+
+Description from [Wolfram Mathworld](https://mathworld.wolfram.com/AdditivePersistence.html):
 
 Consider the process of taking a number, adding its digits,
 then adding the digits of the number derived from it, etc.,
@@ -220,3 +222,12 @@ True
 ghci> palindrome "myxomatosis"
 False
 ```
+
+Note that in Haskell, a `String` is simply a list of `Char`:
+
+```haskell
+>>> ['h', 'a', 's', 'k', 'e', 'l', 'l']
+"haskell"
+```
+
+The function should be case sensitive, so `"Mom"` is not a palindrome.
