@@ -1,7 +1,5 @@
 # Assignment 1: Intro to Haskell (65 points)
 
-## Due by Wednesday 1/27 23:59:59
-
 ## Overview
 
 The objective of this assignment is for you to gain some
